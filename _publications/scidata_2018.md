@@ -6,10 +6,8 @@ excerpt: 'Large auto-generated databases of magnetic materials properties have t
 date: 2018-06-19
 venue: 'Nature Scientific Data'
 paperurl: 'https://www.nature.com/articles/sdata2018111'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: 'Court. C.J & Cole. J.M (2018). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+This work develops a probabilistic approach to quaternary chemical relationship extraction from scientific text. Largely based on extensions to the Snowball Algorithm.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Court C.J & Cole J.M "Auto-generated Materials Database of Curie and Néel Temperatures via Semi-supervised Relationship Extraction" <i>Scientific Data</i>. 5, 180111 (2018)
