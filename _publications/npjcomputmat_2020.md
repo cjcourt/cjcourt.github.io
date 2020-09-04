@@ -13,4 +13,4 @@ citation: 'Court C.J & Cole J.M "Magnetic and superconducting phase diagrams and
 
 This paper utilises text-mining and machine learning to automatically reconstruct the magnetic and superconducting phase diagrams of known materials. It further demonstrates how basic material descriptors can be used with regression models to predict the phase transitions of compounds not present in the database. 
 
-The results are available via a web-application, which you can view <a href="www.magneticmaterials.org/analysis/"> here</a>
+The results are available via a web-application, which you can view <a href="http://www.magneticmaterials.org/analysis/">here</a>
