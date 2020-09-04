@@ -10,3 +10,7 @@ citation: 'Court C.J & Cole J.M "Auto-generated Materials Database of Curie and 
 ---
 # Description
 This work develops a probabilistic approach to quaternary chemical relationship extraction from scientific text. Largely based on extensions to the Snowball Algorithm.
+
+The tool was used to create a vast database of magnetic phase transition temperatures - the first auto-generated database of its kind. 
+
+The resulting database was later used by others to discover novel magnetocaloric effects in $HoB_2$. You can read that work <a href="https://www.nature.com/articles/s41427-020-0214-y">here</a>
