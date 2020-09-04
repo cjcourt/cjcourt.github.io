@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 # About me
-Thanks for taking the time to stop by my site, hopefully you'll find something interesting to read, from my previous [publications](publications/), [projects I have worked on](projects/), [blog posts](blogs/) and my [CV](cv/).
+Thanks for taking the time to stop by my site, hopefully you'll find something interesting to read, from my previous [publications](publications/), various [projects I have worked on](projects/), a (small) list of [blog posts](year-archive/) and my [CV](cv/).
 
 As you might have gathered by now, I am currently a final-year PhD Student in the Molecular Engineering Group at the University of Cambridge. My research has focussed on the application of natural language processng, data-science and machine learning to the discovery of novel magnetic materials.
 
