@@ -8,4 +8,5 @@ venue: 'Nature Scientific Data'
 paperurl: 'https://www.nature.com/articles/sdata2018111'
 citation: 'Court C.J & Cole J.M "Auto-generated Materials Database of Curie and Néel Temperatures via Semi-supervised Relationship Extraction" <i>Scientific Data</i>. 5, 180111 (2018)'
 ---
+# Description
 This work develops a probabilistic approach to quaternary chemical relationship extraction from scientific text. Largely based on extensions to the Snowball Algorithm.
