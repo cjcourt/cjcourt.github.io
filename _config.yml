@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Callum J. Court"
   avatar           : "profile_picture.png"
-  bio              : "TBC"
+  bio              : "PhD Student // Machine Learning // University of Cambridge."
   location         : "London, UK."
   employer         :
-  pubmed           : ""
-  googlescholar    : ""
+  pubmed           : #""
+  googlescholar    : "https://scholar.google.com/citations?user=Qb4EwZcAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/cjcourt"
+  github           : "cjcourt"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : ""
+  linkedin         : "https://www.linkedin.com/in/callum-court-03413bb4/"
+  orcid            : #""
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@CallumJCourt"
+  twitter          : "CallumJCourt"
   vine             :
   weibo            :
   xing             :
