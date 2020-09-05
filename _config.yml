@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "<img src='/images/site_logo.png'> Callum J. Court"
+title                    : "<img src='/images/site_logo.png' width='50px'> Callum J. Court"
 title_separator          : "-"
 name                     : &name "Callum J. Court."
 description              : &description "personal description"
