@@ -11,49 +11,48 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* PhD in Physics, University of Cambridge, 2017-2020 (expected)
+* MPhil in Scientific Computing, Distinction, University of Cambridge, 2016
+* MPhys in Physics, 1st Class, Cardiff University, 2012-2016
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2019: Investment Analyst Intern
+  * Orbis Investments
+  * Duties included: Investment analysis within the global sector team.
+  * Quant Research, financial analysis, report writing, presentations.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summers 2014 and 2014: R&D Intern
+  * Renishaw Plc
+  * Duties included: Research and Development of software products for computer vision and thermal control systems
+  * Research, software development, code review
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Machine learning and Natural Language processing
+  * Conducted extensive work on computer vision, generative models, relationship extraction and text-mining during my PhD
+* Mathematics
+* Problem Solving
+* Research
+* Teamwork
+* Organisation
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Awards
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+* 2018 Orbis Stock Picking Challenge - Winner
+* Sir Arthur Davies Prize - Winner
+  * Awarded for best performance in the School of Physics and Astronomy
+* Cardiff University Undergraduate Scholarship
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Team Lead - ChemDataExtractor Development group
+  * Leader of an internal sofware development team of up to 12 developers
+  * Worked together to develop and maintain internal software
+  * Duties included: Software development, code review, version control (git)
