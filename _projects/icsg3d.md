@@ -1,0 +1,6 @@
+---
+title: "ICSG3D"
+excerpt: "3D Inorganic Crystal Structure Generation<br/><img src='/images/toc.png'>"
+collection: projects
+---
+Write up this project!
