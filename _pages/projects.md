@@ -3,6 +3,7 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
+read_more: "disabled"
 ---
 
 {% include base_path %}
