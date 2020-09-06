@@ -13,19 +13,19 @@ The original toolkit was developed by [Matt Swain](https://github.com/mcs07) in 
 
 A number of papers have since been published demonstrating and extending the capabilities of CDE:
 
-[A database of battery materials auto-generated using ChemDataExtractor]()
+[A database of battery materials auto-generated using ChemDataExtractor](https://www.nature.com/articles/s41597-020-00602-2)
 
-[ChemSchematicResolver: A Toolkit to Decode 2D Chemical Diagrams with Labels and R-Groups into Annotated Chemical Named Entities]()
+[ChemSchematicResolver: A Toolkit to Decode 2D Chemical Diagrams with Labels and R-Groups into Annotated Chemical Named Entities](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00042)
 
-[Magnetic and superconducting phase diagrams and transition temperatures predicted using text mining and machine learning]()
+[Magnetic and superconducting phase diagrams and transition temperatures predicted using text mining and machine learning](https://www.nature.com/articles/s41524-020-0287-8)
 
-[Comparative dataset of experimental and computational attributes of UV/vis absorption spectra]()
+[Comparative dataset of experimental and computational attributes of UV/vis absorption spectra](https://www.nature.com/articles/s41597-019-0306-0)
 
-[ImageDataExtractor: A Tool to extract and quantify data from microscopy images]()
+[ImageDataExtractor: A Tool to extract and quantify data from microscopy images](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00734)
 
-[Dye‐Sensitized Solar Cells: Design‐to‐Device Approach Affords Panchromatic Co‐Sensitized Solar Cells]()
+[Dye‐Sensitized Solar Cells: Design‐to‐Device Approach Affords Panchromatic Co‐Sensitized Solar Cells](https://onlinelibrary.wiley.com/doi/abs/10.1002/aenm.201802820)
 
-[Auto-generated materials database of Curie and Néel temperatures via semi-supervised relationship extraction]()
+[Auto-generated materials database of Curie and Néel temperatures via semi-supervised relationship extraction](https://www.nature.com/articles/sdata2018111)
 
 
 In summary, the toolkit is very general, and can therefore be applied in any domain.
@@ -50,8 +50,8 @@ Let's say we have the following (contrived) example document*:
 
 > <b><center> On the Melting Point of Water </center></b>
 <b>Abstract</b>
-In this work we analyse the melting point of water. Specifically, the temperature at which solid water (also known as ice), undergoes a transition to liquid form.<br>
-<b>Results</b>
+In this work we analyse the melting point of water. Specifically, the temperature at which solid water (also known as ice), undergoes a transition to liquid form.<br><br>
+<b>Results</b><br>
 This section describes the results of our experiments on Sample 1 ($H_2O$). It was found that Sample 1 underwent the solid-liquid phase transition under heating at 273.15 K.
 
 <i><small>* Note that this above work is highly propietary research and should not be stolen under any circumstances...</small></i>
@@ -67,7 +67,7 @@ The sentences are further tokenized down to word tokens.
 
 The key information is contained in a few sentences:
 
-> "This sections describes the results o our experiments on Sample 1 ($H_2O$)"
+> "This sections describes the results of our experiments on Sample 1 ($H_2O$)"
 
 This identifies two entities, a chemical formula and a corresponding label. This effectively creates the link that Sample 1 == $H_2O$.
 
@@ -77,13 +77,12 @@ This finds a melting point relationship of (melting point, 273.15, Kelvin, Sampl
 
 Finally the interdependency resolvers link the two records to give a final record:
 
-Melting Point
-    * Compound: $H_2O$
-    * labels: Sample 1
-    * Value: 273.15
-    * Unit: Kelvin
+Compound: $H_2O$
+Labels: Sample 1
+Value: 273.15
+Unit: Kelvin
 
-Voila!
+and voila, we have a complete record!
 
 # Further Reading
 I have written some blog posts on how to use CDE in more detail. You can also clone the [repository](https://github.com/CambridgeMolecularEngineering/chemdataextractor) and have a play with it yourself!
