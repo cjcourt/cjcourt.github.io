@@ -43,7 +43,7 @@ where LN is a lanthanide ion. The theory of superexchange indicates that the str
 
 Panels (a) and (b) in the figure below show the auto-generated and reported Néel phase for the $LNCrO_3$ series. As predicted, these show a strong linear dependence of the Néel temperature on the ionic radius of the LN cation.
 
-We note that the auto-generated diagram is missing its Ce-member, $CeCrO_3$. Making use of the available auto-generated data and machine-learning techniques, we can attempt to make a prediction of the Néel temperature, and compare this to the r eported value of ~260 K.
+We note that the auto-generated diagram is missing its Ce-member, $CeCrO_3$. Making use of the available auto-generated data and machine-learning techniques, we can attempt to make a prediction of the Néel temperature, and compare this to the reported value of ~260 K.
 
 Using the prediction and feature selection methods of the phase-transition toolkit outlined in the Methodology, we predicted the Néel temperature of $CeCrO_3$ to be in the range of 250-270 K, very close to the manually reported experimental value of 260 K. The optimal features for the model were determined to be the ionic radius and Pauling electronegativity of the LN ion, both of which can be directly related to the theory of superexchange that depends primarily on the overlap of the LN and O orbitals.
 
