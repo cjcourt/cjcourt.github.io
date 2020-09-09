@@ -74,7 +74,7 @@ Finally, we use a Crystal Graph Convolution Neural Network (CGCNN) to predict th
 
 ## Results
 ![Results](/images/rand_gens-1.png)
-The results are completely novel crystals! that have been shown to be valid and stable by electronic-structure calculations.
+The results are completely novel crystals (!) that have been shown to be valid and stable by electronic-structure calculations.
 
 # Further Reading
 The [paper](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00464) and [source code](https://github.com/by256/icsg3d) for ICSG3D are  available for you to peruse at your leisure. 
