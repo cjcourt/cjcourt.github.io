@@ -79,3 +79,5 @@ The results are completely novel crystals! that have been shown to be valid and 
 # Further Reading
 The [paper](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00464) and [source code](https://github.com/by256/icsg3d) for ICSG3D are  available for you to peruse at your leisure. 
 
+I intend to do a blog on creating and validating new materials at some point, so keep an eye out.
+
