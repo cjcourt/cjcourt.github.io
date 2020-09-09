@@ -20,7 +20,9 @@ Phase diagrams are essentially plots of a materials magnetic phase versus other 
 Unfortunately, phase diagrams in the literature are extremely sparse, and often not very specific. Therefore, our idea was to use our database to automatically reconstruct, and ultimately predict, the phase transitions of magnetic materials.
 
 # Results
+
 We can see how well our tool does via some case-studies.
+
 ## Perovskite Oxides
 The perovskite-type oxides are inorganic compounds with general formula $ABO_3$ where  A is a large 12-coordinated cation and B is a smaller 6-coordinated cation.
 The generic perovskite structure is cubic; however, this form is rarely found due to structural deformation. These deformations cause the perovskites to exhibit a wide variety of interesting and useful properties including ferroelectricity, piezoelectricity, superconductivity and magnetism. As such, perovskite materials are found in a vast number of applications.
