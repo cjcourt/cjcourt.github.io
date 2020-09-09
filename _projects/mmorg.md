@@ -17,7 +17,7 @@ Specifically, we used ChemDataExtractor to mine a corpus of 74,000 articles to c
 ## Reconstructing phase diagrams
 Phase diagrams are essentially plots of a materials magnetic phase versus other interesting properties, such as composition or pressure. These diagrams tell us a huge amount about how a material will behave under different conditions, and therefore how well it will perform in applications.
 
-Unfortunately, phase diagrams in the literature are extremrely sparse, and often not very specific. Therefore, our idea was to use our database to automatically reconstruct, and ultimately predict, the phase transitions of magnetic materials.
+Unfortunately, phase diagrams in the literature are extremely sparse, and often not very specific. Therefore, our idea was to use our database to automatically reconstruct, and ultimately predict, the phase transitions of magnetic materials.
 
 # Results
 We can see how well our tool does via some case-studies.
