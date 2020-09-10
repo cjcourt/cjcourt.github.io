@@ -5,25 +5,29 @@ collection: projects
 ---
 
 # Overview
-[MagneticMaterials.org](http://magneticmaterials.org) is a web application for analysing magnetic phase transition data that I have mined using [ChemDataExtractor](cde.md).
+[MagneticMaterials.org](http://magneticmaterials.org) is a web application for analysing magnetic phase transition data that were mined using [ChemDataExtractor](cde.md).
 
 
 # How it works
-## Mining Magnetic Phase Transitions
-The first step is to automatically mine scientific articles for the values of magnetic and superconducting phase transitions. These properties are realy important for materials used in a variety of applications, such magnetometers, regrigerators, power converion devices, spintronics and more!
 
-Specifically, we used ChemDataExtractor to mine a corpus of 74,000 articles to create a database of 20,000 phase transitions, with an estimated precision of 82%.
+## Mining Magnetic Phase Transitions
+
+The first step is to automatically mine scientific articles for the values of magnetic and superconducting phase transitions. These properties are really important for materials used in a variety of applications, such magnetometers, regrigerators, power converion devices, spintronics and more.
+
+Specifically, we used ChemDataExtractor to mine a corpus of 74,000 articles to create a database of 20,000 phase transitions. The final database has an estimated precision of 82%.
 
 ## Reconstructing phase diagrams
+
 Phase diagrams are essentially plots of a materials magnetic phase versus other interesting properties, such as composition or pressure. These diagrams tell us a huge amount about how a material will behave under different conditions, and therefore how well it will perform in applications.
 
 Unfortunately, phase diagrams in the literature are extremely sparse, and often not very specific. Therefore, our idea was to use our database to automatically reconstruct, and ultimately predict, the phase transitions of magnetic materials.
 
-# Results
+## Results
 
 We can see how well our tool does via some case-studies.
 
-## Perovskite Oxides
+### Perovskite Oxides
+
 The perovskite-type oxides are inorganic compounds with general formula $ABO_3$ where  A is a large 12-coordinated cation and B is a smaller 6-coordinated cation.
 The generic perovskite structure is cubic; however, this form is rarely found due to structural deformation. These deformations cause the perovskites to exhibit a wide variety of interesting and useful properties including ferroelectricity, piezoelectricity, superconductivity and magnetism. As such, perovskite materials are found in a vast number of applications.
 
@@ -35,7 +39,7 @@ Using our toolkit and the excellent visualisation tools provided by [Plotly](htt
 
 ![LSMO](/images/lsmo.png)
 
-## Antiferromangetic Perovskites
+### Antiferromangetic Perovskites
 
 Antiferromagnetic interactions in perovskites originate from the superexchange mechanism. This is defined as an indirect exchange interaction between non-neighbouring magnetic cations mediated by a non-magnetic anion.
 
@@ -51,20 +55,21 @@ Using the prediction and feature selection methods of the phase-transition toolk
 
 ![antiferro](/images/fig_3.png)
 
-## Rare-earth Manganites
+### Rare-earth Manganites
 
 Other antiferromagnetic perovskite oxides include the rare-earth manganite series 
 $LNMnO_3$. The auto-generated Néel temperature as function of ionic radius of the LN ion is given in panel (c) above. Again, the auto-generated temperatures match closely to the values from manually curated experimental reports. However, in contrast to the orthochromites, the relationship between Néel temperature and ionic radius is non-linear for $LNMnO_3$ compounds. This non-linearity results from a structural phase transition within this series. For LN = Ho, Er, Yb, Lu the compounds typically crystallise in a stable hexagonal structure. In hexagonal perovskites the linkage between the cations can be either 180$^\circ$ or 90$^\circ$, yielding very different superexchange mechanisms to those of orthorhombic $LNMnO_3$ compounds with 
 thus their different dependence on the Néel temperature. These orthorhombic compounds have similar structures and magnetic behaviour to rare-earth orthochromites, given their common crystal system.
 
-## Barium Ferropnictides
+### Barium Ferropnictides
 
 The theory of superconductivity in Barium ferropnictides diverges from the conventional Bardeen-Cooper-Schrieffer (BCS) model in which superconductivity arises as a direct result of electron-phonon coupling. Instead, ferropnictide superconductivity is caused by electron-electron Coulomb interactions. This unconventional superconductivity is indicated in the phase diagrams of the $BaFe_{2-x}Ni_xAs_2$ class of ferropnictide materials, since the superconducting state arises near the onset of antiferromagnetic order in metals with very low electrical conductivity.
 These are 1222-type superconductors and the end member $BaFe_2As_2$ exhibits antiferromagnetism up to around 140 K. Above this temperature it is a paramagnetic `bad-metal' due the high resistivity. As the $Ni$ content, x, is increased, the Néel temperature decreases until a superconductivity phase begins to emerge below 20 K. At a certain critical doping concentration $x_c = 0.07$, the antiferromagnetic and superconducting states coincide at ~40 K. For higher concentrations, the Néel phase is suppressed and superconductivity below 20 K is observed. For doping concentrations above x = 0.20, the system returns to a non-superconducting paramagnet. This is reflected clearly in the auto-generated and reported phase diagrams, shown below.
 
 ![Barium](/images/fig_5.png)
 
-# Further Reading
+## Further Reading
+
 The paper corresponding to this work is available [here](https://pubs.acs.org/doi/10.1021/acs.jcim.0c00464). The toolkit is [here](http://magneticmaterials.org/analysis/) and a demo of the phase diagram toolkit can be found [here](http://magneticmaterials.org/demo/)
 
 
