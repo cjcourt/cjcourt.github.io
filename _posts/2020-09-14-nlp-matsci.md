@@ -8,7 +8,7 @@ tags:
   - Text-mining
   - Maching Learning
 ---
-At first thought the idea of using natural language processing to discover new materials is counterintuitive. We think of machine learning as a process that takes in data and learns from important features to make predictions. If those input data are natural language, and the predictions are new materials, then it feels like something very crazy has to happen in-between.
+At first thought the idea of using natural language processing to discover new materials is counter-intuitive. We think of machine learning as a process that takes in data and learns from important features to make predictions. If those input data are natural language, and the predictions are new materials, then it feels like something very crazy has to happen in-between.
 
 This topic is the subject of my entire PhD, namely answering the question <i>"Can we use NLP, data-science and machine learning to discover new materials?"</i>. With this blog post I will a) explain why we should try, and b) show that we can.
 
