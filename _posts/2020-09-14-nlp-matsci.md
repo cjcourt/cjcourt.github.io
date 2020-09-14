@@ -82,7 +82,7 @@ Overall, we see that chemical information extraction is a very complex task. How
 ## What's the point?
 So we can extract some properties and chemicals from documents, why is that important? 
 
-Well, consider that we can extract all relevant chemicals and their properties from all relevant documents. We effectively auto-generate a vast database of labelled chemical data, upon which our aforementioned machine learning algorithms can be applied. This builds highly accurate predictive models of materials, that ultimately help us to discover new ones.
+Well, consider that we can extract <b>all</b> relevant chemicals and their properties from <b>all</b> relevant documents. We effectively auto-generate a vast database of labelled chemical data, upon which our aforementioned machine learning algorithms can be applied. This builds highly accurate predictive models of materials, that ultimately help us to discover new ones.
 
 ## Does it work?
 Yes it does! 
