@@ -90,7 +90,7 @@ Yes it does!
 Using these kinds of approaches, researchers have demonstrated it possible to build vast databases of [magnetic materials](https://www.nature.com/articles/sdata2018111), [photovoltaics](https://ui.adsabs.harvard.edu/abs/2019APS..MARB22013B/abstract) and [battery materials](https://www.nature.com/articles/s41597-020-00602-2). These have also been shown to produce accurate [predictive models](https://www.nature.com/articles/s41524-020-0287-8) and even discover [new materials](https://www.nature.com/articles/s41427-020-0214-y)!.
 
 ## Conclusions
-While it definitely is counter-intuitive to use NLP for materials discovery, the utility of NLP in the scientific domain should not be underestimated. Hopefully this blog has given some insight into why its important.
+While it definitely is counter-intuitive to use NLP for materials discovery, the utility of NLP in the scientific domain should not be underestimated. Hopefully this blog has given some insight into why it's important.
 
 Feel free to contact me if you're interesting in applying these techniques to your domain of interest.
 
