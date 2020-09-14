@@ -58,7 +58,7 @@ Figures are even more complex, and computer vision techniques must be used in or
 These are all very complex problems.
 
 ## Named Entities
-Scientific documents are also full of important named entities - chemical formulae, labels, aparatus, measurement techniques etc. - which are made even more complicated by the use of domain-specific abbreviations and terminology. For instance, if undefined, the abbreviation <i>DFT</i> means something very different to a computational chemisty than it does for a mathematician. Identifying and resolving these kinds of issues (a word-sense disambiguation task) is highly important. 
+Scientific documents are also full of important named entities - chemical formulae, labels, aparatus, measurement techniques etc. - which are made even more complicated by the use of domain-specific abbreviations and terminology. For instance, if undefined, the abbreviation <i>DFT</i> means something very different to a computational chemist than it does for a mathematician. Identifying and resolving these kinds of issues (a word-sense disambiguation task) is highly important. 
 
 Chemical naming conventions also vary wildly between domains, a single chemical compound could be identified by a formula, IUPAC code, common name, brand name, SMILES string and more. As such, Chemical Named Entitiy Recognition (CNER) is a vital part of the NLP pipeline.
 
