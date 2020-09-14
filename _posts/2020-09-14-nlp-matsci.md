@@ -1,6 +1,6 @@
 ---
 title: 'Using NLP for Materials Science'
-date: 2020-09-10
+date: 2020-09-14
 permalink: /posts/2020/09/NLP_Mat_sci/
 tags:
   - NLP
